@@ -4,6 +4,7 @@ function varargout = instructions(varargin)
 %      singleton*.
 %
 %      H = INSTRUCTIONS returns the handle to a new INSTRUCTIONS or the handle to
+%      H = INSTRUCTIONS returns the handle to a new INSTRUCTIONS or the handle to
 %      the existing singleton*.
 %
 %      INSTRUCTIONS('CALLBACK',hObject,eventData,handles,...) calls the local
