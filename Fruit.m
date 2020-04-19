@@ -30,6 +30,7 @@ function [Fruit, FruitFail, Pixel] = Fruit(img,ImageNum)
             blueThresholdHigh = 115;
     end
     % Read the image.
+    % Read the image.
     [rgbImage, storedColorMap] = imread(img);
     [~ , ~, numberOfColorBands] = size(rgbImage); 
     if strcmpi(class(rgbImage), 'uint8')
